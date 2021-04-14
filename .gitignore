@@ -134,8 +134,9 @@ dmypy.json
 .AppleDouble
 .LSOverride
 
-static/
-yatube/static/
+yatube/static
+yatube/posts/static
+
 
 *.sublime-project
 *.sublime-workspace
