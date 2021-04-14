@@ -17,6 +17,10 @@ class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateTimeField('date published', auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE,
-                               related_name='Автор')
+                               related_name='posts', verbose_name='Автор')
     group = models.ForeignKey(Group, on_delete=models.SET_NULL, blank=True,
-                              null=True, related_name='Категория')
+                              null=True, related_name='posts',
+                              verbose_name='Категория')
+
+    class Meta:
+        ordering = ('-pub_date',)
