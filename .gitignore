@@ -133,6 +133,7 @@ dmypy.json
 .DS_Store
 .AppleDouble
 .LSOverride
+/posts/static
 
 *.sublime-project
 *.sublime-workspace
