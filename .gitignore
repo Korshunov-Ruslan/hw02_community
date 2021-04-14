@@ -1,3 +1,6 @@
+yatube/static/
+yatube/posts/static/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -133,9 +136,6 @@ dmypy.json
 .DS_Store
 .AppleDouble
 .LSOverride
-
-yatube/static
-yatube/posts/static
 
 
 *.sublime-project
