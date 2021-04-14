@@ -135,7 +135,7 @@ dmypy.json
 .LSOverride
 
 static/
-posts/static/
+yatube/static/
 
 *.sublime-project
 *.sublime-workspace
