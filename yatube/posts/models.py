@@ -23,5 +23,8 @@ class Post(models.Model):
                               null=True, related_name='posts',
                               verbose_name='Категория')
 
+    def __str__(self):
+        return self.text
+
     class Meta:
         ordering = ('-pub_date',)
