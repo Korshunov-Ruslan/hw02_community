@@ -1,5 +1,5 @@
-<!DOCTYPE html> <!-- Используется html 5 версии -->
 {% extends 'base.html'%}
+{% load static %}
 <html lang="ru"> <!-- Язык сайта - русский -->
   <head>    
     <meta charset="utf-8"> <!-- Кодировка сайта -->
@@ -24,7 +24,7 @@
         <div class="container">
            <!-- ссылка должна вести на главную страницу -->
           <a class="navbar-brand" href="">
-            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="{% static 'img/logo.png'%}" width="30" height="30" class="d-inline-block align-top" alt="">
             <!-- тег span используется для добавления нужных стилей отдельным участкам текста -->
             <span style="color:red">Ya</span>tube
           </a>

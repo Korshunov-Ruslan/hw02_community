@@ -14,4 +14,4 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 
     #  обработчик для главной страницы ищем в urls.py приложения posts
-    path("", include("posts.urls", namespace='posts'))]
+    path("", include("posts.urls", namespace='posts_urls'))]
